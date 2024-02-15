@@ -1,0 +1,20 @@
+START PROJECT
+$django-admin startproject harusiyangu
+START APP
+$python manage.py startapp harusiapp
+
+++create 'templates' folder to hold your html templates
+-put the 'index.html' file selected
+
+++create 'static' folder to put all your static files
+
+++create a 'urls.py' file in harusiapp to put your url directions
+
+++ define the indexview in the views.py file
+
+++add the app urls file to the urls.py project's file
+
+++in the settings file remember to indicate the templates as well as the static folder.
++++also add the harusiapp configuration in the settings installed apps
+
+++in the index.html file remember to well call the static files
